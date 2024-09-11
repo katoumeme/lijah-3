@@ -45,7 +45,7 @@ function displayCatHeart() {
     document.getElementById('image-container').innerHTML = '';
     var imageContainer = document.getElementById('image-container');
     var catHeartImage = new Image();
-    catHeartImage.src = 'peony.gif';
+    catHeartImage.src = 'giphy.gif';
     catHeartImage.alt = 'peony for my beloved';
     catHeartImage.onload = function() {
         imageContainer.appendChild(catHeartImage);
